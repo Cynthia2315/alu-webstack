@@ -1,0 +1,8 @@
+@@ -46,5 +46,5 @@ frontend www-https
+
+backend www-backend
+    redirect scheme https if !{ssl_fc}
+    server 6066-web-01 3.94.161.162:80 check
+    server 6066-web-02 3.88.140.140:80 check
+    server web-01 3.94.161.162:80 check
+    server web-02 3.88.140.140:80 check
